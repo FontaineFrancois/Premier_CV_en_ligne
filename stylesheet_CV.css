@@ -1,1 +1,165 @@
-soon
+body {
+  background-color: #EFECCA;
+  margin:0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#barre_nav_header_1 {
+  height:68px;
+  background-color: #8DD8F3;
+  width:1366px;
+  opacity:0,7;
+
+}
+
+.div_nav_header_1 {
+  float:right;
+  margin-right: 90px;
+}
+
+.ul_nav_header_1 li{
+  display:inline-block;
+  margin-right:10px;
+  line-height: 35px;
+
+}
+
+.li_nav_header_1 {
+  color:white;
+  font-size:16px;
+  margin-right:15px;
+}
+
+
+
+hr {border:0;
+  margin:0px;
+  height:0px;
+  clear:both;
+}
+
+
+
+#barre_nav_header_2 {
+  display:inline-block;
+  height:65px;
+  width:1366px;
+  background-color: #66B6D4;
+}
+
+.div_nav_header_2_accueil {
+  float:left;
+  margin-left: 35px;
+}
+
+.ul_nav_header_2_accueil li{
+  display:inline-block;
+  line-height:35px;
+}
+
+.li_nav_header_2_accueil {
+  font-size:22;
+  color:white;
+}
+
+
+
+.div_nav_header_2 {
+  float:right;
+  margin-right: 85px;
+}
+
+.ul_nav_header_2 li{
+  display:inline-block;
+  margin-right:10px;
+  line-height: 32px;
+}
+
+.li_nav_header_2 {
+  color:white;
+  font-size:14px;
+  margin-right:20px;
+}
+
+
+
+
+#section_1 {
+  width:1300x;
+  height:450px;
+  margin-top:50px;
+  margin-left:25px;
+  margin-right:25px;
+  background-color: white;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 4px 2px grey;
+}
+
+.section_1_gauche {
+  height:400px;
+  width:300px;
+  background-color:white;
+  float:left;
+  margin:20px;
+  border-right: 2px inset grey;
+}
+
+.photo_profil {
+}
+
+.section_1_gauche h1 {
+  color:#66B6D4;
+  font-size:26px;
+  text-align:left;
+}
+
+.section_1_gauche p {
+  text-align: left;
+  font-size:12px;
+  line-height:15px;
+  color:grey;
+}
+
+.section_1_centre {
+  height:400px;
+  width:550px;
+  position:absolute;
+  top:210px;
+  left:400px;
+  background-color:white;
+
+}
+.section_1_centre h1 {
+  color:#66B6D4;
+  text-align:center;
+  font-size:30px;
+}
+
+.p_titre {
+  color:grey;
+  text-align: center;
+  font-size: 16px;
+}
+.p_bloc {
+  color:grey;
+  text-align:center;
+  font-size: 14px;
+}
+
+.section_1_droite {
+  height:400px;
+  width:300px;
+  background-color:white;
+  margin:20px;
+  border-left: 2px outset grey;
+  float:right;
+}
+
+.section_1_droite h1 {
+  color:#66B6D4;
+  font-size:26px;
+  text-align: center;
+}

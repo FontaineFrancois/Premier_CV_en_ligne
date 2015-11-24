@@ -12,7 +12,6 @@ a {
   background-color: #8DD8F3;
   width:1366px;
   opacity:0,7;
-
 }
 
 .div_nav_header_1 {
@@ -162,4 +161,130 @@ hr {border:0;
   color:#66B6D4;
   font-size:26px;
   text-align: center;
+}
+
+#megadiv_section_2 {
+  width:1366;
+  height:950px;
+}
+
+#section_2 {
+  width:535px;
+  height:900px;
+  margin-top:50px;
+  margin-left:25px;
+  margin-right:25px;
+  background-color: white;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 4px 2px grey;
+  float:left;
+}
+
+.section_2_gauche {
+  margin-top:50px;
+  height:800px;
+  width:300px;
+  background-color:white;
+  float:left;
+  margin:20px;
+  border-right: 2px inset grey;
+}
+
+.section_2_gauche h1 {
+  color:#66B6D4;
+  font-size:26px;
+  text-align:left;
+}
+
+.section_2_gauche p {
+  text-align: left;
+  font-size:12px;
+  line-height:15px;
+  color:grey;
+}
+
+.section_2_centre {
+  margin-top:50px;
+  height:800px;
+  width:150px;
+  background-color:white;
+  float:left;
+  margin:20px;
+}
+
+.dates_etudes_1 {
+height:25px;
+width:60px;
+background-color:#66B6D4;
+margin-top:100px;
+}
+.dates_etudes_1 p{
+color:white;
+opacity:0.8;
+text-align:center;
+line-height: 25px;
+}
+
+.dates_etudes_2 {
+  height:25px;
+  width:120px;
+  background-color:#66B6D4;
+  margin-top:150px;
+}
+.dates_etudes_2 p{
+color:white;
+opacity:0.8;
+text-align:center;
+line-height: 25px;
+}
+
+.dates_etudes_3 {
+  height:25px;
+  width:120px;
+  background-color:#66B6D4;
+  margin-top:170px;
+}
+.dates_etudes_3 p{
+color:white;
+opacity:0.8;
+text-align:center;
+line-height: 25px;
+}
+
+.dates_etudes_4 {
+  height:25px;
+  width:60px;
+  background-color:#66B6D4;
+  margin-top:170px;
+}
+.dates_etudes_4 p{
+color:white;
+opacity:0.8;
+text-align:center;
+line-height: 25px;
+}
+
+.section_2_droite {
+  margin-top:50px;
+  height:900px;
+  width:745px;
+  box-shadow: 4px 4px 4px 2px #66B6D4 ;
+  background-color:#66B6D4;
+  float:left;
+}
+
+.section_2_droite h1 {
+  color:white;
+  font-size:26px;
+  text-align:left;
+  margin-left: 25px;
+  margin-top: 45px;
+}
+
+.texte_ecole_1 {
+  color:white;
+  font-size:16px;
+  text-align:left;
+  margin-left:30px;
+  margin-top:90px;
 }

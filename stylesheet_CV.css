@@ -10,7 +10,7 @@ a {
 #barre_nav_header_1 {
   height:68px;
   background-color: #8DD8F3;
-  width:1366px;
+  width:1350px;
   opacity:0,7;
 }
 
@@ -45,7 +45,7 @@ hr {border:0;
 #barre_nav_header_2 {
   display:inline-block;
   height:65px;
-  width:1366px;
+  width:1350px;
   background-color: #66B6D4;
 }
 
@@ -164,7 +164,7 @@ hr {border:0;
 }
 
 #megadiv_section_2 {
-  width:1366;
+  width:1350;
   height:870px;
 }
 
@@ -337,14 +337,14 @@ line-height: 25px;
 
 
 #megadiv_section_3 {
-  width:1366;
+  width:1350;
   height:920px;
 }
 
 #grande_section_3_gauche {
   float:left;
   height:920px;
-  width:850px;
+  width:750px;
   background-color: white;
   box-shadow: 2px 2px 2px 2px grey ;
   margin-left:20px;
@@ -352,7 +352,7 @@ line-height: 25px;
 
 .section_3_gauche {
   height:900px;
-  width:250px;
+  width:150px;
   background-color:white;
   float:left;
   margin-left:20px;
@@ -485,10 +485,95 @@ line-height: 25px;
 
 #section_3_droite {
   height:920px;
-  width:440px;
+  width:540px;
   background-color:#96CA2D;
   float:left;
   margin-left:20px;
   box-shadow: 2px 2px 2px 2px #96CA2D;
   margin-right:20px;
+}
+
+#section_3_droite h1 {
+  color:white;
+  font-size:26px;
+  text-align:left;
+  margin-left: 30px;
+  margin-top:40px;
+}
+
+.dates_assos_1 {
+  height:25px;
+  width:120px;
+  background-color:white;
+  margin-top:95px;
+  margin-left: 30px;
+}
+.dates_assos_1 p{
+color:#96CA2D;
+opacity:0.8;
+text-align:center;
+line-height: 25px;
+}
+
+.dates_assos_2 {
+  height:25px;
+  width:60px;
+  background-color:white;
+  margin-top:80px;
+  margin-left:30px;
+}
+.dates_assos_2 p{
+color:#96CA2D;
+opacity:0.8;
+text-align:center;
+line-height: 25px;
+}
+
+.texte_assos_1 {
+  color:white;
+  font-size:16px;
+  text-align:left;
+  margin-left:30px;
+  margin-top:45px;
+}
+
+.texte_assos_2 {
+  color:white;
+  font-size:16px;
+  text-align:left;
+  margin-left:30px;
+  margin-top:45px;
+}
+
+
+#loisirs {
+  height:500px;
+  width:1310px;
+  background-color:white;
+  box-shadow: 2px 2px 2px 2px grey;
+  margin-top:20px;
+  margin-left:20px;
+}
+.cinema {
+border-radius:50%;
+float:left;
+}
+
+.div_footer {
+  width:1310;
+  height:100;
+  background-color:black;
+  margin-left:20px;
+  margin-right:45px;
+  box-shadow: 2px 2px 2px 2px black;
+  padding-top:20px;
+  margin-top:20px;
+  opacity:0.9;
+}
+
+.div_footer p {
+color:white;
+padding-left:30px;
+font-size:16px;
+opacity:0.9;
 }

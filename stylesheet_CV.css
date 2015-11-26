@@ -728,7 +728,7 @@ transform:rotate(5deg) scale(1.2);
 
 .div_footer {
   width:1310px;
-  height:180px;
+  height:200px;
   background-color:black;
   margin-left:20px;
   margin-right:45px;
@@ -748,4 +748,38 @@ color:white;
 padding-left:50px;
 font-size:16px;
 opacity:0.9;
+}
+.contact{
+  float:left;
+}
+.reseaux_contact {
+  float:left;
+  background-color:white;
+  height:170px;
+  width:750px;
+  margin-left:65px;
+  margin-top:5px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.reseaux_github {
+  float:left;
+  height:90px;
+  margin-left:70px;
+  margin-top:35px;
+}
+.reseaux_viadeo {
+  float:left;
+  height:140px;
+  margin-left:100px;
+  margin-bottom:25px;
+}
+
+.reseaux_linkedIn {
+  height:60px;
+  margin-left:90px;
+  margin-top:50px;
 }

@@ -1,31 +1,37 @@
 body {
   background-color: #EFECCA;
-  margin:0px;
+  margin:0;
 }
-
 a {
   text-decoration: none;
+}
+hr {border:0;
+  margin:0;
+  height:0;
+  clear:both;
 }
 
 #barre_nav_header_1 {
   height:68px;
   background-color: #8DD8F3;
-  width:1350px;
+  width:100%;
   opacity:0,7;
 }
-
+/*javascript*/
+.fixNavigation {
+  transition: 10s;
+  position: fixed;
+  top: 0;
+}
 .div_nav_header_1 {
   float:right;
   margin-right: 90px;
 }
-
 .ul_nav_header_1 li{
   display:inline-block;
   margin-right:10px;
   line-height: 35px;
-
 }
-
 .li_nav_header_1 {
   color:white;
   font-size:16px;
@@ -34,50 +40,35 @@ a {
 
 
 
-hr {border:0;
-  margin:0px;
-  height:0px;
-  clear:both;
-}
-
-
 
 #barre_nav_header_2 {
   display:inline-block;
   height:65px;
-  width:1350px;
+  width:100%;
   background-color: #66B6D4;
   z-index: 5;
 }
-
 .div_nav_header_2_accueil {
   float:left;
   margin-left: 35px;
 }
-
 .ul_nav_header_2_accueil li{
   display:inline-block;
   line-height:35px;
 }
-
 .li_nav_header_2_accueil {
   font-size:22;
   color:white;
 }
-
-
-
 .div_nav_header_2 {
   float:right;
   margin-right: 85px;
 }
-
 .ul_nav_header_2 li{
   display:inline-block;
   margin-right:10px;
   line-height: 32px;
 }
-
 .li_nav_header_2 {
   color:white;
   font-size:14px;
@@ -85,10 +76,8 @@ hr {border:0;
 }
 
 
-
-
 #section_1 {
-  width:1300x;
+  width:1300px;
   height:450px;
   margin-top:50px;
   margin-left:25px;
@@ -97,7 +86,6 @@ hr {border:0;
   margin-bottom: 30px;
   box-shadow: 2px 2px 2px 2px grey;
 }
-
 .section_1_gauche {
   height:400px;
   width:300px;
@@ -124,7 +112,6 @@ hr {border:0;
   line-height:15px;
   color:grey;
 }
-
 .section_1_centre {
   height:400px;
   width:570px;
@@ -132,14 +119,12 @@ hr {border:0;
   background-color:white;
   margin-left:10px;
   margin-right:10px;
-
 }
 .section_1_centre h1 {
   color:#66B6D4;
   text-align:center;
   font-size:30px;
 }
-
 .p_titre {
   color:grey;
   text-align: center;
@@ -150,27 +135,41 @@ hr {border:0;
   text-align:center;
   font-size: 14px;
 }
-
 .section_1_droite {
   height:400px;
   width:380px;
-  background-color:white;;
+  background-color:white;
   border-left: 2px outset grey;
   float:left;
 }
-
 .section_1_droite h1 {
   color:#66B6D4;
   font-size:26px;
   text-align: center;
 }
+.github {
+  height:120px;
+  margin-left:40px;
+  margin-top:33px;
+  float:left;
+}
+.viadeo {
+  height:170px;
+  margin-left:35px;
+  margin-bottom:30px;
+  float:left;
+}
+.linkedIn {
+  height:80px;
+  margin-left:45px;
+  margin-bottom:10px;
+}
+
 
 #megadiv_section_2 {
   width:1350;
   height:870px;
 }
-
-
 #section_2_gauche {
   margin-top:50px;
   height:800px;
@@ -180,14 +179,12 @@ hr {border:0;
   margin:20px;
   box-shadow: 2px 2px 2px 2px #66B6D4;
 }
-
 #section_2_gauche h1 {
   color:white;
   font-size:26px;
   text-align:left;
   margin-left:30px;
 }
-
 #section_2_gauche p {
   text-align: left;
   font-size:14px;
@@ -195,8 +192,6 @@ hr {border:0;
   color:white;
     margin-left:30px;
 }
-
-
 #grande_section_2_droite {
   float:left;
   height:800px;
@@ -206,7 +201,6 @@ hr {border:0;
   box-shadow: 2px 2px 2px 2px grey ;
   margin-left:5px;
 }
-
 .section_2_centre {
   margin-top:50px;
   height:750px;
@@ -216,7 +210,6 @@ hr {border:0;
   margin:20px;
   border-right: 2px inset grey;
 }
-
 .dates_etudes_1 {
   height:25px;
   width:60px;
@@ -229,7 +222,6 @@ hr {border:0;
   text-align:center;
   line-height: 25px;
 }
-
 .dates_etudes_2 {
   height:25px;
   width:120px;
@@ -237,12 +229,11 @@ hr {border:0;
   margin-top:150px;
 }
 .dates_etudes_2 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .dates_etudes_3 {
   height:25px;
   width:60px;
@@ -250,12 +241,11 @@ line-height: 25px;
   margin-top:110px;
 }
 .dates_etudes_3 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .dates_etudes_4 {
   height:25px;
   width:120px;
@@ -263,12 +253,11 @@ line-height: 25px;
   margin-top:105px;
 }
 .dates_etudes_4 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .dates_etudes_5 {
   height:25px;
   width:60px;
@@ -276,26 +265,23 @@ line-height: 25px;
   margin-top:105px;
 }
 .dates_etudes_5 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .section_2_droite {
   height:750px;
   width:700px;
   background-color:white;
   float:left;
 }
-
 .section_2_droite h1 {
   color:#66B6D4;
   font-size:26px;
   text-align:left;
   margin-left: 25px;
 }
-
 .texte_ecole_1 {
   color:grey;
   font-size:16px;
@@ -303,7 +289,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:70px;
 }
-
 .texte_ecole_2 {
   color:grey;
   font-size:16px;
@@ -311,7 +296,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:60px;
 }
-
 .texte_ecole_3 {
   color:grey;
   font-size:16px;
@@ -319,7 +303,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:60px;
 }
-
 .texte_ecole_4 {
   color:grey;
   font-size:16px;
@@ -327,7 +310,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:50px;
 }
-
 .texte_ecole_5 {
   color:grey;
   font-size:16px;
@@ -336,31 +318,35 @@ line-height: 25px;
   margin-top:35px;
 }
 
-.competences {
 
+.background_competences {
+  background-color:#66B6D4;
+  width:80%;
+  height:630px;
+  margin-left:140px;
+  box-shadow: 2px 2px 2px 2px #66B6D4;
+  margin-bottom:20px;
+}
+.competences {
   width:40%;
   height:625px;
   margin-left:140px;
   background-color:#66B6D4;
-  box-shadow: 2px 2px 2px 2px #66B6D4; ;
   margin-bottom:20px;
   -webkit-transition:width:1s height:1s;
   -webkit-transition:0.5s;
   -moz-transition:width:1s height:1s;
   -moz-transition:0.5s;
 }
-
 .competences:hover{
   width:80%;
 }
-
 .competences h1 {
   color:white;
   font-size:26px;
   text-align:center;
   padding-top:50px;
 }
-
 .skillsBar li{
   height:30px;
   background: #C4C7CB;
@@ -376,28 +362,24 @@ line-height: 25px;
   line-height:25px;
   text-decoration:none;
 }
-
 .html_css{
   width:70%;
   background-color:#505D63;
   height:30px;
   float:left;
 }
-
 .JS{
   width:35%;
   background-color:#505D63;
   height:30px;
   float:left;
 }
-
 .ruby{
   width:35%;
   background-color:#505D63;
   height:30px;
   float:left;
 }
-
 .linux_debian{
   width:65%;
   background-color:#505D63;
@@ -423,12 +405,12 @@ line-height: 25px;
   float:left;
 }
 
+
 #megadiv_section_3 {
   width:1350;
   height:920px;
   margin-top:30px;
 }
-
 #grande_section_3_gauche {
   float:left;
   height:920px;
@@ -437,7 +419,6 @@ line-height: 25px;
   box-shadow: 2px 2px 2px 2px grey ;
   margin-left:20px;
 }
-
 .section_3_gauche {
   height:900px;
   width:120px;
@@ -445,12 +426,11 @@ line-height: 25px;
   float:left;
   margin-left:20px;
 }
-
 .dates_stages_1 {
-height:25px;
-width:60px;
-background-color:#96CA2D;
-margin-top:120px;
+  height:25px;
+  width:60px;
+  background-color:#96CA2D;
+  margin-top:120px;
 }
 .dates_stages_1 p{
   color:white;
@@ -458,7 +438,6 @@ margin-top:120px;
   text-align:center;
   line-height: 25px;
 }
-
 .dates_stages_2 {
   height:25px;
   width:60px;
@@ -466,12 +445,11 @@ margin-top:120px;
   margin-top:135px;
 }
 .dates_stages_2 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .dates_stages_3 {
   height:25px;
   width:60px;
@@ -479,12 +457,11 @@ line-height: 25px;
   margin-top:115px;
 }
 .dates_stages_3 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .dates_stages_4 {
   height:25px;
   width:60px;
@@ -492,12 +469,11 @@ line-height: 25px;
   margin-top:110px;
 }
 .dates_stages_4 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .dates_stages_5 {
   height:25px;
   width:60px;
@@ -505,12 +481,11 @@ line-height: 25px;
   margin-top:120px;
 }
 .dates_stages_5 p{
-color:white;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:white;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .section_3_centre {
   height:900px;
   width:500px;
@@ -519,14 +494,12 @@ line-height: 25px;
   margin:20px;
   border-left: 2px outset grey;
 }
-
 .section_3_centre h1 {
   color:#96CA2D;
   font-size:26px;
   text-align:left;
   margin-left: 25px;
 }
-
 .texte_stages_1 {
   color:grey;
   font-size:16px;
@@ -534,7 +507,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:45px;
 }
-
 .texte_stages_2 {
   color:grey;
   font-size:16px;
@@ -542,7 +514,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:45px;
 }
-
 .texte_stages_3 {
   color:grey;
   font-size:16px;
@@ -550,7 +521,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:45px;
 }
-
 .texte_stages_4 {
   color:grey;
   font-size:16px;
@@ -558,7 +528,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:50px;
 }
-
 .texte_stages_5 {
   color:grey;
   font-size:16px;
@@ -566,9 +535,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:35px;
 }
-
-
-
 
 
 #section_3_droite {
@@ -582,7 +548,6 @@ line-height: 25px;
   margin-bottom:100px;
   margin-top:115px;
 }
-
 #section_3_droite h1 {
   color:white;
   font-size:26px;
@@ -590,7 +555,6 @@ line-height: 25px;
   margin-left: 30px;
   margin-top:40px;
 }
-
 .dates_assos_1 {
   height:25px;
   width:120px;
@@ -599,12 +563,11 @@ line-height: 25px;
   margin-left: 30px;
 }
 .dates_assos_1 p{
-color:#96CA2D;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:#96CA2D;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .dates_assos_2 {
   height:25px;
   width:60px;
@@ -613,12 +576,11 @@ line-height: 25px;
   margin-left:30px;
 }
 .dates_assos_2 p{
-color:#96CA2D;
-opacity:0.8;
-text-align:center;
-line-height: 25px;
+  color:#96CA2D;
+  opacity:0.8;
+  text-align:center;
+  line-height: 25px;
 }
-
 .texte_assos_1 {
   color:white;
   font-size:16px;
@@ -626,7 +588,6 @@ line-height: 25px;
   margin-left:30px;
   margin-top:45px;
 }
-
 .texte_assos_2 {
   color:white;
   font-size:16px;
@@ -651,21 +612,20 @@ line-height: 25px;
   padding-top: 50px;
 }
 #loisirs img {
-float:left;
-height:250px;
-width:325px;
-border-radius:45%;
-margin-top:50px;
-margin-left:85px;
+  float:left;
+  height:250px;
+  width:325px;
+  border-radius:45%;
+  margin-top:50px;
+  margin-left:85px;
 }
-
 .cinema {
-height:30px;
-width:120px;
-background-color:#66B6D4;
-margin-top:40px;
-margin-left:190px;
-float:left;
+  height:30px;
+  width:120px;
+  background-color:#66B6D4;
+  margin-top:40px;
+  margin-left:190px;
+  float:left;
 }
 .cinema p{
   color:white;
@@ -673,14 +633,13 @@ float:left;
   text-align:center;
   line-height:2px;
 }
-
 .ecriture {
-height:30px;
-width:120px;
-background-color:#66B6D4;
-margin-top:40px;
-margin-left:290px;
-float:left;
+  height:30px;
+  width:120px;
+  background-color:#66B6D4;
+  margin-top:40px;
+  margin-left:290px;
+  float:left;
 }
 .ecriture p{
   color:white;
@@ -688,14 +647,13 @@ float:left;
   text-align:center;
   line-height:2px;
 }
-
 .musique {
-height:30px;
-width:120px;
-background-color:#66B6D4;
-margin-top:40px;
-margin-left:290px;
-float:left;
+  height:30px;
+  width:120px;
+  background-color:#66B6D4;
+  margin-top:40px;
+  margin-left:290px;
+  float:left;
 }
 .musique p{
   color:white;
@@ -705,9 +663,10 @@ float:left;
 }
 
 
+
 .div_footer {
-  width:1310;
-  height:160;
+  width:1310px;
+  height:180px;
   background-color:black;
   margin-left:20px;
   margin-right:45px;
@@ -717,13 +676,11 @@ float:left;
   margin-bottom:20px;
   opacity:0.9;
 }
-
 .div_footer h1 {
   color:white;
   size:28px;
   margin-left:20px;
 }
-
 .div_footer p {
 color:white;
 padding-left:50px;

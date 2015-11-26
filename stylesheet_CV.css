@@ -755,10 +755,10 @@ opacity:0.9;
 .reseaux_contact {
   float:left;
   background-color:white;
-  height:170px;
-  width:750px;
-  margin-left:65px;
-  margin-top:5px;
+  height:150px;
+  width:650px;
+  margin-left:100px;
+  margin-top:20px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -774,12 +774,12 @@ opacity:0.9;
 .reseaux_viadeo {
   float:left;
   height:140px;
-  margin-left:100px;
+  margin-left:50px;
   margin-bottom:25px;
 }
 
 .reseaux_linkedIn {
   height:60px;
-  margin-left:90px;
+  margin-left:50px;
   margin-top:50px;
 }
